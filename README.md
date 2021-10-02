@@ -36,9 +36,9 @@ dataset [Stanford Dogs](http://vision.stanford.edu/aditya86/ImageNetDogs/)
 
 ## Mode d'emploi pour le lancement de l'application
 1.  Installer des librairies utilisées pour les projet : 
-‘‘‘pip install -r requrements.txt‘‘‘
+```pip install -r requrements.txt```
 
 2.  Lancer de l'application streamlit:
-‘‘‘streamlit run 6_02_app.py‘‘‘
+```streamlit run 6_02_app.py```
 
-3.  Ouvrir uen fenêtre de navigateur avec l'URL ‘‘‘http://localhost:8501’’’
+3.  Ouvrir uen fenêtre de navigateur avec l'URL ```http://localhost:8501```
