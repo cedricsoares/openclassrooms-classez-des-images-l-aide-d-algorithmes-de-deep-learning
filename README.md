@@ -34,7 +34,7 @@ Le meileur modèle a été par la intégré dans un démonstrarteur développé 
 ## Données: 
 dataset [Stanford Dogs](http://vision.stanford.edu/aditya86/ImageNetDogs/)
 
-## M'emploi pour le lancement de l'application
+## Mode d'emploi pour le lancement de l'application
 1.  Installer des librairies utilisées pour les projet : 
 ‘‘‘pip install -r requrements.txt‘‘‘
 
