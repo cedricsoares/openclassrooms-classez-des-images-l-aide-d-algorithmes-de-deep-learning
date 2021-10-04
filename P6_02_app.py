@@ -16,6 +16,7 @@ def load_model_and_class_names():
     return model, class_names
 
 def load_image(img):
+    """ transform into array and preprocess image """
     img = img.resize((299,299), Image.ANTIALIAS)
     img_tensor = image.img_to_array(img)
     img_tensor = np.expand_dims(img_tensor, axis=0)
@@ -23,6 +24,7 @@ def load_image(img):
     return img_tensor
 
 def get_prediction(model, img, class_names):
+    """ Make prediction using model """
     preds = model.predict(img)
     pred_label = class_names[np.argmax(preds)]
     return pred_label
